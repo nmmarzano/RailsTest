@@ -1,24 +1,26 @@
 # README
+Just a Rails test following the first course at [jhu-ep-coursera](https://github.com/jhu-ep-coursera)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Ruby version
+Currently using 2.2.4 and the app is barebones so I don't expect there to be any version-related trouble
 
-Things you may want to cover:
+## System dependencies
+None really
 
-* Ruby version
+## Configuration
+Just run Rails normally
 
-* System dependencies
+## Database creation
+no
 
-* Configuration
+## Database initialization
+n
 
-* Database creation
+## How to run the test suite
+h
 
-* Database initialization
+## Services (job queues, cache servers, search engines, etc.)
+2
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Deployment instructions
+Put the cake in the oven for a while
