@@ -1,12 +1,10 @@
 class Coursera
 	include HTTParty
 
-	#base_uri 'https://api.coursera.org/api/catalog.v1/courses'
-	base_uri 'https://jsonplaceholder.typicode.com/comments'
-	default_params fields: "id,email,body", q: "search"
+	base_uri 'https://jsonplaceholder.typicode.com'
 	format :json
 
-	def self.for id
-		get("", query: {query: id})[0]
+	def self.comment id
+		get("/comments", query: {id: id})
 	end
 end

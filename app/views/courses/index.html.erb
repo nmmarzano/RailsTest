@@ -1,11 +1,16 @@
 <h1>Searching for - <%= @search_term %></h1>
 
-<p><%= @courses %></p>
-
 <table border="1">
 	<tr>
 		<th>Email</th>
 		<th>Name</th>
 		<th>Body</th>
 	</tr>
+	<% @courses.each do |course| %>
+		<tr>
+			<td><%= course["email"] %></td>
+			<td><%= course["name"] %></td>
+			<td><%= course["body"] %></td>
+		</tr>
+	<% end %>
 </table>
